@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.env                    # NEVER commit credentials
+data/                   # DVC manages this
+models/                 # MLflow manages this
+mlruns/
+.ipynb_checkpoints/
+*.parquet
+*.csv
